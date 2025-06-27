@@ -1,0 +1,96 @@
+.welcome-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .welcome-header .line {
+    flex: 1;
+    border-top: 2px solid #333;
+    margin: 0;
+  }
+  
+
+  
+.carousel-btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  border-radius: 20px;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+
+  .carousel-image {
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-size: 1.5rem;
+  }
+  
+  .featured-box {
+    background-color: #f1f1f1;
+    padding: 1rem;
+    height: 498px;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+  }
+  
+  .pagination-dots .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #eee;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .pagination-dots .dot.active {
+    background-color: #000;
+  }
+  
+  .country-card {
+    border: 1px solid #ccc;
+  }
+  
+  .country-flag {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 12px;
+  }
+
+    
+
+
+  .carousel-placeholder {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1.5rem;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carousel-container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .country-flag-slider {
+    width: 60%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
